@@ -1,4 +1,4 @@
-# cross-course-project
+# Cross course project
 
 ![eager-poitras-06416c netlify app_index html](https://user-images.githubusercontent.com/70173574/172457337-1e097abf-7597-4227-a577-af6bd6871f1e.png)
 
