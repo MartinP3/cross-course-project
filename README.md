@@ -7,8 +7,9 @@ A simple overview of the use/purpose of the project.
 
 ## Description
 
-This is a site I worked on throughout the year, at first as just a wireframe but ultimately turning into this site.
-So here you can see my first ever website, it's not pretty or good but it's the first one I did and I'm proud of how far I've come since.
+Out of the 3 projects I could choose from GameHub is the one that resonated the most with me and what I could make something more out of.
+
+Gamehub sets out to give people a platform to both buy and sell old and new games through the site, to lessen waste and to give you more of the value back than just pennies to the dollar like with a certain store.
 
 ## Built With
 
@@ -27,7 +28,7 @@ Clone the repository with GitHub Desktop
 Or
 
 ```bash
-git clone git@github.com:MartinP3/portfolio.git
+git clone git@github.com:MartinP3/cross-course-project.git
 ```
 
 ### Running
@@ -43,7 +44,3 @@ Currently not in need of any contribution through pull and push requests directl
 https://twitter.com/terriblecoding
 
 https://www.linkedin.com/in/martin-pedersen-723297241/
-
-## Acknowledgments
-
-I would like to thank Christonn93 for sharing his site and giving me the idea to use this nav naming sense.
