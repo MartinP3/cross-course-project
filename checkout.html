@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Proceed with your purchase through this checkout!" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="css/global.css" rel="stylesheet" />
+  <link href="css/checkout.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
+  <title>GameHub | Checkout</title>
+
+  <!-- Hotjar Tracking Code for https://dazzling-feynman-211a4d.netlify.app/ -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2862042,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img src="images/GameHub_Logo.png" alt="GameHub Logo" class="logo" />
+    </a>
+    <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+    <input type="checkbox" id="hamburger-menu"  />
+    <nav>
+      <ul>
+        <li><a href="listofgames.html">List of Games</a></li>
+        <li><a href="accountpage.html">My Account</a></li>
+        <li><a href="checkout.html" class="active">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="row">
+      <div class="co-info"> <!--co = checkout-->
+        <div class="container">   
+              <form id="form">
+                <h1>Shipping Address</h1>
+                <div class="form-success" id="form-success">You have succesfully filled out the form!</div>
+                <div>
+                  <label>
+                    Full Name (required)
+                    <input name="fullName" id="fullName" />
+                    <div class="form-error" id="fullNameError">Please put in your full name.</div>
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    Email (required)
+                    <input name="email" id="email" />
+                    <div class="form-error" id="emailError">Please enter a valid email we can contact you with.</div>
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    Address (required)
+                    <input name="address" id="address" />
+                    <div class="form-error" id="addressError">Please enter the addres you want it shipped to.</div>
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    City (required)
+                    <input name="city" id="city" />
+                    <div class="form-error" id="cityError">Please enter your city.</div>
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    Postal Code (required)
+                    <input name="postalCode" id="postalCode" />
+                    <div class="form-error" id="postalCodeError">Please enter your city.</div>
+                  </label>
+                </div>
+              <div class="co-groups">
+                <h3>Payment information</h3>
+                <div>
+                  <label>
+                    Full Name (required)
+                    <input name="cName" id="cName" />
+                    <div class="form-error" id="cNameError">Please enter your full name.</div>
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    Credit Card Number (required)
+                    <input name="ccNo" id="ccNo" />
+                    <div class="form-error" id="ccNoError">Please enter your credit card number.</div>
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    Expiry Month (required)
+                    <input name="expMonth" id="expMonth" />
+                    <div class="form-error" id="expMonthError">Please enter your credit card's expiry month.</div>
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    Expiry Year (required)
+                    <input name="expYear" id="expYear" />
+                    <div class="form-error" id="expYearError">Please enter your credit card's expiry year.</div>
+                  </label>
+                </div>
+                <div>
+                  <label>
+                    CCV (required)
+                    <input name="ccv" id="ccv" />
+                    <div class="form-error" id="ccvError">Please enter your credit card's CCV.</div>
+                  </label>
+                </div>
+              </div>
+
+            <button>Purchase</button>
+          </form>
+        </div>
+      </div>
+    
+      <div class="co-product">
+        <div class="container">
+          <h4>Cart</h4>
+          <p class="cart-info"><a href="#"><span class="gamesList">Super Mario 64</span></a> <span class="price">$14.99</span></p>
+          <p class="cart-info"><a href="#">Shipping</a> <span class="price">$4.99</span></p>
+          <hr>
+          <p class="cart-info">Total <span class="price">$19.98</span></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/checkout.js"></script>
+  <footer class="footer-info">
+    <h1><a href="aboutus.html">Contact Us | About Us</a></h1>
+      <p>contact@gamehub.com</p>
+  </footer>
+</body>
+</html>
