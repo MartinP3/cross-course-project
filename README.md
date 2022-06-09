@@ -17,6 +17,8 @@ GameHub aims to allow gamers to get some money back from their games and then sh
 - HTML
 - CSS
 - Javascript
+- Visual Studio Code
+- Netlify
 
 ## Getting Started
 
