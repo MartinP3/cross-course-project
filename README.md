@@ -12,6 +12,8 @@ Out of the 3 projects I could choose from GameHub is the one that resonated the 
 The goal of GameHub is to have a competitive pricing for video games, and to have a large variety of video games for the consumer to look through and find what they want. Sell older games you've finished for more than just some pennies to the dollar and perhaps spend that towards the next childhood memory or a new triple A game!
 GameHub aims to allow gamers to get some money back from their games and then share the joy onwards to the next gamer.
 
+My choice of color being white and blue mainly boils down to have a serious and clean look for a online marketplace and picking a blue color to give the customer a feeling of honesty and calming feeling.
+
 ## Built With
 
 - HTML
