@@ -9,7 +9,8 @@ A simple overview of the use/purpose of the project.
 
 Out of the 3 projects I could choose from GameHub is the one that resonated the most with me and what I could make something more out of.
 
-Gamehub sets out to give people a platform to both buy and sell old and new games through the site, to lessen waste and to give you more of the value back than just pennies to the dollar like with a certain store.
+The goal of GameHub is to have a competitive pricing for video games, and to have a large variety of video games for the consumer to look through and find what they want. Sell older games you've finished for more than just some pennies to the dollar and perhaps spend that towards the next childhood memory or a new triple A game!
+GameHub aims to allow gamers to get some money back from their games and then share the joy onwards to the next gamer.
 
 ## Built With
 
